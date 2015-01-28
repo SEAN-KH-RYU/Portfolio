@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="styles\app.css" />
+    <Content Include="styles\foundation.css" />
     <Content Include="styles\foundation.min.css" />
     <Content Include="styles\normalize.css" />
     <Content Include="humans.txt" />

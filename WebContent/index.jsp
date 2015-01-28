@@ -10,49 +10,53 @@
     <link href="styles/foundation.css" rel="stylesheet" />
 </head>
 <body>
-
-    <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="#home">Home</a></h1>
-            </li>
-            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-                <li class="name"><a href="#content" class="buttonNew">About Me</a></li>
-                <li class="name"><a href="#education" class="buttonNew">Educations</a></li>
-                <li class="name"><a href="#skills" class="buttonNew">Skills</a></li>
-                <li class="has-dropdown">
-                    <a href="#project" class="buttonNew">Works</a>
-                    <ul class="dropdown">
-                        <li><a href="#project1" class="buttonNew">Hydroelectric power plant control system</a></li>
-                        <li class="buttonNew"><a href="#project2">Human resource management system</a></li>
-                        <li class="buttonNew"><a href="#project3">Airline booking system</a></li>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <!-- Logo -->
+            <!-- Navigation -->
+            <nav class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#home">HOME</a></h1>
+                    </li>
+                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <li class="name"><a href="#content" class="buttonNew">About Me</a></li>
+                        <li class="name"><a href="#education" class="buttonNew">Educations</a></li>
+                        <li class="name"><a href="#skills" class="buttonNew">Skills</a></li>
+                        <li class="has-dropdown">
+                            <a href="#project" class="buttonNew">Works</a>
+                            <ul class="dropdown">
+                                <li><a href="#project" class="buttonNew">Hydroelectric power plant control system</a></li>
+                                <li class="buttonNew"><a href="#project2">Human resource management system</a></li>
+                                <li class="buttonNew"><a href="#project3">Airline booking system</a></li>
+                            </ul>
+                        </li>
+                        <li class="name"><a href="https://github.com/SEAN-KH-RYU/Portfolio" class="buttonNew">Github</a></li>
+                        <li class="name"><a href="#contact" class="buttonNew">Contact Me</a></li>
                     </ul>
-                </li>
-                <li class="name"><a href="https://github.com/SEAN-KH-RYU/Portfolio" class="buttonNew">Github</a></li>
-                <li class="name"><a href="#contact" class="buttonNew">Contact Me</a></li>
-
-            </ul>
-
-            <!-- Left Nav Section -->
-            <!--<ul class="left">
+                    <!-- Left Nav Section -->
+                    <!--<ul class="left">
                 <li><a href="#">Left Nav Button</a></li>
             </ul>
             -->
-        </section>
-    </nav>
+                </section>
+            </nav>
+        </div>
+    </header>
+    <!-- #header -->
     <div id="home" class="row">
+        <br /><br /><br />
+
         <aside class="large-4 small-6 columns">
             <img src="images/logo.png" />
         </aside>
-
         <header class="large-8 small-6 columns">
-
             <div class='jumbotron'>
                 <h1>
                     <span class='highlight'>Kyounghyun</span>Ryu
@@ -60,31 +64,33 @@
                 <h2>
                     senior software engineer<sup>*</sup>
                 </h2>
-                <p class='explanation'>
-                    <sup>*</sup>As a
-                    <span class='guru'>software engineer</span>
-                    with
-                    <em>more than</em>
-
-                    <span class='ninja'>seven years</span>
-                    of experience using
-                    <span class='robot-zombie'>Java, C++, C#...</span>
-                </p>
+                <h3>
+                    <p class='explanation'>
+                        <sup>*</sup>As a
+                        <span class='guru'>software engineer</span>
+                        with
+                        <em>more than</em>
+                        <span class='ninja'>seven years</span>
+                        of experience using
+                        <span class='robot-zombie'>Java, C++, C#...</span>
+                    </p>
+                </h3>
             </div>
-
         </header>
-
     </div>
     <div id="content" class="row">
+        <br /><br /><br />
+
         <article class="large-12 columns">
             <h2>About Me</h2>
             <p>
                 With 7 years of software development experience, I pride myself as a skilled software engineer and a hands-on software developer. I have worked as a project team leader and assistant lead in my previous projects. I am well versed in software development such as design, development, and testing. My technical expertise includes C/C++, and JAVA in UNIX/Linux and Windows environments. For being a better qualified software engineer, I have made an effort constantly studying mobile platform. Now I am studying at Centennial College to learn new technologies and upgrade my previous knowledge
             </p>
-
         </article>
     </div>
     <div id="education" class="row">
+        <br /><br /><br />
+
         <article class="large-12 columns">
             <h2>Educations</h2>
             <p class=MsoNormal style='margin-right:-20.05pt;line-height:115%'>
@@ -97,7 +103,6 @@
                 </b>&nbsp;&nbsp;&nbsp;&nbsp;2013<span lang=EN-US style='font-family:"Arial","sans-serif"'>&nbsp;&nbsp;to</span><span lang=EN-US style='font-family:"Arial","sans-serif";'>&nbsp;&nbsp;Present</span><b>
                 </b>
             </p>
-
             <p class=MsoNormal style='line-height:115%'>
                 <span lang=EN-US style='font-size:11.5pt;line-height:115%;font-family:"Arial","sans-serif"'>
                     Centennial College, Toronto, ON
@@ -133,7 +138,6 @@
                 </b>
                 <span lang=EN-US style='font-family:"Arial","sans-serif"'>&nbsp;&nbsp;&nbsp;&nbsp;2005</span>
             </p>
-
             <p class=MsoNormal style='line-height:115%'>
                 <span class=SpellE>
                     <span lang=EN-US style='font-size:11.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Kongju</span>
@@ -145,6 +149,8 @@
         </article>
     </div>
     <div id="skills" class="row">
+        <br /><br /><br />
+
         <article class="large-12 columns">
             <h2>Skills</h2>
             <h5>Core Java, Java Swing, C#, C++</h5>
@@ -165,10 +171,12 @@
             </div>
         </article>
     </div>
-    <br /><br />
     <div id="project" class="row">
+        <br /><br /><br />
+
         <h2>Projects</h2>
         <aside id="project1" class="large-6 small-6 columns">
+
             <h5>Hydroelectric power plant control system</h5>
             <ul>
                 <li>Spearheaded creation of cross-platform interface for other departments</li>
@@ -178,9 +186,7 @@
                 <li>Using Java, C++, Java Swing, Struts framework</li>
             </ul>
         </aside>
-
         <header class="large-6 small-6 columns">
-
             <div class="orbit-container">
                 <ul class="example-orbit-content" data-orbit>
                     <li data-orbit-slide="headline-1">
@@ -197,10 +203,11 @@
                     </li>
                 </ul>
             </div>
-
         </header>
     </div>
     <div id="project2" class="row">
+        <br /><br /><br />
+
         <aside class="large-6 small-6 columns">
             <h5>Human resource management system</h5>
             <ul>
@@ -209,9 +216,7 @@
                 <li>Designed detail database and user interface</li>
             </ul>
         </aside>
-
         <header class="large-6 small-6 columns">
-
             <div class="orbit-container">
                 <ul class="example-orbit-content" data-orbit>
                     <li data-orbit-slide="headline-1">
@@ -240,10 +245,11 @@
                     </li>
                 </ul>
             </div>
-
         </header>
     </div>
     <div id="project3" class="row">
+        <br /><br /><br />
+
         <aside class="large-6 small-6 columns">
             <h5>Airline booking system</h5>
             <ul>
@@ -307,9 +313,9 @@
                             <label>Mail</label>
                         </a>
                     </div>
-                    
+
                 </div>
-                
+
                 <div class='col-md-12 ' align="center">
                     <p class='subheader'>
                         Copyright &copy;2014 - 2015
