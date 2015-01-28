@@ -1,0 +1,6 @@
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\bin\COMP308-Lesson02-Part2.dll.config
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\bin\COMP308-Lesson02-Part2.dll
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\bin\COMP308-Lesson02-Part2.pdb
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\obj\Debug\COMP308-Lesson02-Part2.csprojResolveAssemblyReference.cache
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\obj\Debug\COMP308-Lesson02-Part2.dll
+C:\Users\eva700\Source\Repos\COMP308-Lesson02-Part2\COMP308-Lesson02-Part2\obj\Debug\COMP308-Lesson02-Part2.pdb
