@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    File name : index.jsp
+    Author's name : Kyounghyun(Sean) Ryu
+    Web	site name : portfolio.sean-k-ryu.com
+    File description : This is main file
+-->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0>" />
@@ -18,7 +24,7 @@
             <nav class="top-bar" data-topbar role="navigation">
                 <ul class="title-area">
                     <li class="name">
-                        <h1><a href="#home">HOME</a></h1>
+                        <h1><a href="index.html#home">HOME</a></h1>
                     </li>
                     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
                     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -26,25 +32,25 @@
                 <section class="top-bar-section">
                     <!-- Right Nav Section -->
                     <ul class="right">
-                        <li class="name"><a href="#content" class="buttonNew">About Me</a></li>
-                        <li class="name"><a href="#education" class="buttonNew">Educations</a></li>
-                        <li class="name"><a href="#skills" class="buttonNew">Skills</a></li>
+                        <li class="name"><a href="bio.html" class="buttonNew">About Me</a></li>
+                        <li class="name"><a href="index.html#education" class="buttonNew">Educations</a></li>
+                        <li class="name"><a href="index.html#skills" class="buttonNew">Skills</a></li>
                         <li class="has-dropdown">
-                            <a href="#project" class="buttonNew">Works</a>
+                            <a href="index.html##project" class="buttonNew">Works</a>
                             <ul class="dropdown">
-                                <li><a href="#project" class="buttonNew">Hydroelectric power plant control system</a></li>
-                                <li class="buttonNew"><a href="#project2">Human resource management system</a></li>
-                                <li class="buttonNew"><a href="#project3">Airline booking system</a></li>
+                                <li><a href="index.html#project" class="buttonNew">Hydroelectric power plant control system</a></li>
+                                <li class="buttonNew"><a href="index.html#project2">Human resource management system</a></li>
+                                <li class="buttonNew"><a href="index.html#project3">Airline booking system</a></li>
                             </ul>
                         </li>
                         <li class="name"><a href="https://github.com/SEAN-KH-RYU/Portfolio" class="buttonNew">Github</a></li>
-                        <li class="name"><a href="#contact" class="buttonNew">Contact Me</a></li>
+                        <li class="name"><a href="contact.html" class="buttonNew">Contact Me</a></li>
                     </ul>
                     <!-- Left Nav Section -->
                     <!--<ul class="left">
-                <li><a href="#">Left Nav Button</a></li>
-            </ul>
-            -->
+                        <li><a href="#">Left Nav Button</a></li>
+                    </ul>
+                    -->
                 </section>
             </nav>
         </div>
@@ -82,9 +88,19 @@
         <br /><br /><br />
 
         <article class="large-12 columns">
-            <h2>About Me</h2>
+            <h2>About this site</h2>
             <p>
-                With 7 years of software development experience, I pride myself as a skilled software engineer and a hands-on software developer. I have worked as a project team leader and assistant lead in my previous projects. I am well versed in software development such as design, development, and testing. My technical expertise includes C/C++, and JAVA in UNIX/Linux and Windows environments. For being a better qualified software engineer, I have made an effort constantly studying mobile platform. Now I am studying at Centennial College to learn new technologies and upgrade my previous knowledge
+                Hi, I'm <span class="highlight">Kyounghyun Ryu</span> and I'm a
+                <span class="highlight">
+                    <strong>software engineer</strong>
+                </span>
+                based in Toronto, Ontario, Canada. I have 7 years of experience in
+                developing software, mainly core Java and C++/C#.
+            </p>
+            <p>
+                This is my mini-portfolio website where you can <a href="#project">browse</a>
+                sample of my projects. You could also check what <a href="#skills">skills</a>
+                I used to offer.
             </p>
         </article>
     </div>
