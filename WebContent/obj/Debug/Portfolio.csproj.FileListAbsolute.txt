@@ -22,3 +22,11 @@ C:\Users\eva700jp\Source\Repos\Portfolio\WebContent\obj\Debug\Portfolio.Properti
 C:\Users\eva700jp\Source\Repos\Portfolio\WebContent\obj\Debug\Portfolio.csproj.GenerateResource.Cache
 C:\Users\eva700jp\Source\Repos\Portfolio\WebContent\obj\Debug\Portfolio.dll
 C:\Users\eva700jp\Source\Repos\Portfolio\WebContent\obj\Debug\Portfolio.pdb
+C:\Users\eva700\git\Portfolio\WebContent\bin\Portfolio.dll.config
+C:\Users\eva700\git\Portfolio\WebContent\bin\Portfolio.dll
+C:\Users\eva700\git\Portfolio\WebContent\bin\Portfolio.pdb
+C:\Users\eva700\git\Portfolio\WebContent\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\eva700\git\Portfolio\WebContent\obj\Debug\Portfolio.Properties.Resources.resources
+C:\Users\eva700\git\Portfolio\WebContent\obj\Debug\Portfolio.csproj.GenerateResource.Cache
+C:\Users\eva700\git\Portfolio\WebContent\obj\Debug\Portfolio.dll
+C:\Users\eva700\git\Portfolio\WebContent\obj\Debug\Portfolio.pdb
