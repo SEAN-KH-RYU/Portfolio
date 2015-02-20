@@ -1,0 +1,231 @@
+﻿body {
+    margin: 0;
+}
+/* HEADER */
+#header {
+	background: #2e343d;
+	padding: 10px 0 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+}
+.headroom {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.headroom--pinned {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes slideOutUp {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+}
+
+.headroom--unpinned {
+    -webkit-animation-name: slideOutUp;
+    animation-name: slideOutUp;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+    .jumbotron h1 {
+        font-size: 5em;
+    }
+
+        .jumbotron h1 .highlight {
+            color: #2049a2;
+        }
+
+    .jumbotron .explanation {
+        font-size: 0.8em;
+    }
+
+        .jumbotron .explanation .guru {
+            font-weight: bold;
+            font-family: "Times New Roman","Times","New York","Georgia","Garamond",serif;
+        }
+
+        .jumbotron .explanation .ninja {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .jumbotron .explanation .robot-zombie {
+            font-weight: bold;
+        }
+
+@media only screen and (max-width: 480px) {
+    .jumbotron h1 {
+        font-size: 1em;
+        padding-top: 50px;
+    }
+
+    .jumbotron h2 {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+    .jumbotron h1 {
+        font-size: 2em;
+        padding-top: 30px;
+    }
+
+    .jumbotron h2 {
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 840px) {
+    .jumbotron h1 {
+        font-size: 2.5em;
+        padding-top: 30px;
+    }
+
+    .jumbotron h2 {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-width: 841px) and (max-width: 1024px) {
+    .jumbotron h1 {
+        font-size: 3.3em;
+        padding-top: 30px;
+    }
+
+    .jumbotron h2 {
+        font-size: 2.2em;
+    }
+}
+
+#about p {
+    font-size: 120%;
+}
+
+    #about p.last-para {
+        font-size: 90%;
+    }
+
+#about img {
+    margin: 0 0 20px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    #about img {
+        width: 40%;
+    }
+}
+
+.screenshots {
+    text-align: center;
+}
+
+    .screenshots img {
+        margin: 10px 0;
+    }
+
+@media only screen and (max-width: 380px) {
+    .screenshots img, .screenshots iframe {
+        width: 100%;
+    }
+
+    .description img {
+        width: 100%;
+    }
+}
+
+.hero-unit {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+h3, h4 {
+    margin-top: 40px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.highlight {
+    color: #2049A2;
+}
+
+h4, h5 {
+    font-weight: bold;
+}
+
+    h4 a, h5 a {
+        font-weight: normal;
+        font-size: 90%;
+    }
+
+label {
+    font-weight: bold;
+}
+
+footer, .footer {
+    background: #ddd;
+    margin-top: 40px;
+    padding: 20px 0;
+}

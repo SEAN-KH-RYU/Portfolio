@@ -14,6 +14,8 @@
     <link href="styles/normalize.css" rel="stylesheet" />
     <link href="styles/app.css" rel="stylesheet" />
     <link href="styles/foundation.css" rel="stylesheet" />
+    <!-- Check for Mobile browser-->
+    <script src="Scripts/detectmobilebrowser.js"></script>
 </head>
 <body>
     <!-- Header -->
